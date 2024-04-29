@@ -17,7 +17,7 @@ def convert(text: str) -> str:
         "s":"5",
     }
 
-    new_str=[]
+    new_str=""
 
     for i in text:
         if i in table:
